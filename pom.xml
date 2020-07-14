@@ -22,7 +22,7 @@
   <distributionManagement>
     <repository>
       <id>lu.amazon.aws.demo</id>
-      <url>lu.amazon.aws.demo</url>
+      <url>http://maven.apache.org</url>
     </repository>
   </distributionManagement>
 </project>
