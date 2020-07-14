@@ -21,8 +21,14 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>lu.amazon.aws.demo</id>
-      <url>http://maven.apache.org</url>
+      <id>releases</id>
+      <name>Nexus Release Repository</name>
+      <url>http://localhost:8000/repository/maven-releases/</url>
     </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>Nexus Snapshot Repository</name>
+      <url>http://localhost:8000/repository/maven-snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 </project>
