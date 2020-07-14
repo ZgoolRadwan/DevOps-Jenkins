@@ -21,8 +21,8 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>companyname.lib1</id>
-      <url>http://download.companyname.org/maven2/lib1</url>
+      <id>lu.amazon.aws.demo</id>
+      <url>http://maven.apache.org</url>
     </repository>
   </distributionManagement>
 </project>
